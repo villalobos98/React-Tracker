@@ -1,0 +1,98 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer-clean {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #ccc;
+  max-width: 95%;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+.footer-clean .col-sm h3 {
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-clean h3 {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item .social {
+  text-align: right;
+}
+
+.footer-clean .copyright .row {
+  justify-content: right;
+}
+
+@media (max-width: 580px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333;
+    background-color: #ccc;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 1000%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}

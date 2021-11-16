@@ -1,40 +1,30 @@
-# Project Title
+# React Tracker
 
-Simple overview of use/purpose.
+- Track it all
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+- Keep track of any items you want. 
+- As for example, track employee punch in times and punch out times, 
+- keep track of groceries TODOs, keep track of planned events along with dates.
 
 ## Getting Started
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+- To run this project, run Yarn and download all the dependencies, then run NPM run start
+- Windows/MacOS/Linux
 
 ### Installing
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+- Run 'yarn' or 'npm install'
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
+- Run "yarn start" or "npm run start" (If you used NPM install)
 
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
-Contributors names and contact info
+- Isaias Villalobos
+- Special thanks to Max for helping me start this project

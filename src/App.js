@@ -9,6 +9,7 @@ import Home from "./components/Home";
 
 function App() {
   const [date] = useState(new Date());
+
   const expenses = [
     {
       id: 1,
@@ -49,7 +50,6 @@ function App() {
           <Nav />
           <Home />
           <Footer />
-
         </Route>
         <Route exact path="/createExpense">
           <Nav />
@@ -63,13 +63,12 @@ function App() {
         </Route>
         <Route exact path="/login">
           <Nav />
-          <LoginForm></LoginForm>
+          <LoginForm />
           <Footer />
         </Route>
         <Route exact path="/signout"></Route>
       </Switch>
     </BrowserRouter>
-    // {/* <ForgotPassword /> */ }
   );
 }
 

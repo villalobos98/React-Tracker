@@ -1,46 +1,70 @@
 import React from "react";
-import "./styles/Footer.css"
+import "./styles/Footer.css";
+import { Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-
-    <div class="footer-clean">
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <h3>Services</h3>
+    <footer>
+      <Container>
+        <Row>
+          <div id="c">
+            <h3>Sociability</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            </p>
+          </div>
+          <div className="links">
+            <div className="column">
+              <h3>Explore</h3>
               <ul>
-                <li><a href="#">Web design</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">Hosting</a></li>
+                <li>
+                  <a href="#Home">Home</a>
+                </li>
+                <li>
+                  <a href="#Pricing">Pricing</a>
+                </li>
+                <li>
+                  <a href="#About Us">About</a>
+                </li>
+                <li>
+                  <a href="#Careers">Careers</a>
+                </li>
               </ul>
             </div>
-            <div class="col-sm">
-              <h3>About</h3>
+            <div className="column">
+              <h3>Visit</h3>
               <ul>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Legacy</a></li>
+                <li>
+                  <a href="#demo">Demo</a>
+                </li>
+                <li>
+                  <a href="#youtube">YouTube</a>
+                </li>
+                <li>
+                  <a href="#team">Team</a>
+                </li>
               </ul>
             </div>
-            <div className="col-sm">
-              <h3>Careers</h3>
+            <div className="column">
+              <h3>Follow</h3>
               <ul>
-                <li><a href="#">Job openings</a></li>
-                <li><a href="#">Employee success</a></li>
-                <li><a href="#">Benefits</a></li>
+                <li>
+                  <a href="#twitter">Twitter</a>
+                </li>
+                <li>
+                  <a href="#instagram">Instagram</a>
+                </li>
+                <li>
+                  <a href="#linkedIn">LinkedIn</a>
+                </li>
               </ul>
-            </div>
-            <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-              <p class="copyright">The Socialife Group © 2021</p>
             </div>
           </div>
-        </div>
-      </footer>
-    </div>
-
+        </Row>
+      </Container>
+    </footer>
   );
-}
+};
 
 export default Footer;

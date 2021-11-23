@@ -1,17 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-/* \body {
-  background: #3a3a3a;
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-} */
-
 .welcome-banner {
   text-align: center;
   color: #9318eb;
-  font-size: 70px;
+  font-size: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -20,7 +12,7 @@
 }
 
 .form-container {
-  width: 720px;
+  width: 580px;
   background-color: #4b4b4b;
   margin: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -44,7 +36,7 @@
 
 .form-field {
   margin: 20px 0 20px 0;
-  padding: 30px;
+  padding: 15px;
   font-size: 32px;
   border: 0;
   font-family: "Roboto", sans-serif;
@@ -52,12 +44,13 @@
 
 .custom-select {
   margin: 20px 0 20px 0;
-  padding: 30px;
+  padding: 15px;
   font-size: 32px;
   border: 0;
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f2;
   color: #6d6d6d;
+  border-radius: 12px;
 }
 
 span {
@@ -69,6 +62,7 @@ span {
 
 input {
   background: #f2f2f2;
+  border-radius: 12px;
 }
 
 .error {
@@ -80,8 +74,24 @@ button {
   background: #9318eb;
   color: white;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 button:disabled {
   cursor: default;
+}
+
+/* Dynamic Resisizing and therefore Responsive Design */
+@media screen and (max-width: 580px) {
+  .form-container {
+    width: 580px;
+    background-color: #4b4b4b;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 95%;
+    margin-top: 10%;
+  }
 }

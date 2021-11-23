@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Navbar.css";
-import logo from "/Users/isaias/Downloads/React-Tracker/src/images/Socialite.png";
+import logo from "./images/Socialite.png";
 
 const Navbar = () => {
   return (

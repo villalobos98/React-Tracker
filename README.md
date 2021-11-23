@@ -12,7 +12,7 @@
 
 ### Dependencies
 
-- To run this project, run Yarn and download all the dependencies, then run NPM run start
+- To run this project, run Yarn and download all the dependencies, or NPM to install dependencies, noth both
 - Windows/MacOS/Linux
 
 ### Installing

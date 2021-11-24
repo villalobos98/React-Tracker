@@ -1,25 +1,25 @@
 import React from "react";
 import "./styles/Navbar.css";
-import logo from "./images/Socialite.png";
+import logo from "./images/Logo.jpg";
 
 const Navbar = () => {
   return (
     <div className="topnav">
       <ul>
-        <a href="#Home">
+        <a href="/">
           <img src={logo} alt="Socialite"></img>
         </a>
         <li>
-          <a href="#Home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#Pricing">Pricing</a>
+          <a href="/pricing">Pricing</a>
         </li>
         <li>
-          <a href="#Login">Login</a>
+          <a href="/login">Login</a>
         </li>
         <li>
-          <a href="#SignOut">Sign Out</a>
+          <a href="/logout">Sign Out</a>
         </li>
       </ul>
     </div>

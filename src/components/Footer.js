@@ -8,10 +8,12 @@ const Footer = () => {
       <Container>
         <Row>
           <div id="c">
-            <h3>Sociability</h3>
+            <h3>Trackr</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              Trackr started off as an idea for simply tracking items and expenses.
+              Now it is off to help the world track it's expenses, items, problems, and more !
+              Trackr is still developing features to help create an amazing dashboard
+              ®Trackr 2021
             </p>
           </div>
           <div className="links">

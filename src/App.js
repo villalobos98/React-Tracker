@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import LoginForm from "./components/Login";
+import Register from "./components/Register";
 import Home from "./components/Home";
 
 function App() {
@@ -61,9 +61,9 @@ function App() {
           <Expenses items={expenses} />
           <Footer />
         </Route>
-        <Route exact path="/login">
+        <Route exact path="/register">
           <Nav />
-          <LoginForm />
+          <Register />
           <Footer />
         </Route>
         <Route exact path="/signout"></Route>

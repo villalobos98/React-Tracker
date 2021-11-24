@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./styles/LoginForm.css";
+import "./styles/Register.css";
 import axios from "axios";
 
-export default function LoginForm() {
+export default function Register() {
   let [message, setMessage] = useState("Register");
   let [gender] = React.useState([
     { label: "Gender", value: "Gender" },

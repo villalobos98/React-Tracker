@@ -18,12 +18,12 @@
 }
 
 .topnav img {
-  width: 8%;
+  width: 6.5%;
   float: right;
-  border-radius: 12px;
+  border-radius: 4px;
   height: auto;
   display: flex;
-  transform: translateY(2px);
+  /* transform: translateY(0px); */
 }
 
 .topnav li {

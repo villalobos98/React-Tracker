@@ -9,15 +9,14 @@ function Home() {
           <span class="sc-l2chlf-0 destYF">ahead</span>
         </h1>
         <p font-weight="medium" class="sc-qq8d8z-0 jNMNmR">
-          Trackr is your spot to track anything you want !
-          Need to track your haircut ? Store a grocery list ? Store any list you want !
-          Now you can do so with Trackr !
-          An easy to use interface for adding new items with a weekly view for all members !
-          Upgrade to Pro version for only $5.99 and you can see a monthly view !
-          Have any meetings that you want to schedule ? 
-          Simply add it to the Trackr ! 
-          meetings professionally and efficiently, eliminating the hassle of back-and-forth emails so you
-          can get back to work.
+          Trackr is your spot to track anything you want ! Need to track your
+          haircut ? Store a grocery list ? Store any list you want ! Now you can
+          do so with Trackr! An easy to use interface for adding new items with
+          a weekly view for all members ! Upgrade to Pro version for only $5.99
+          and you can see a monthly view ! Have any meetings that you want to
+          schedule ? Simply add it to the Trackr! Track everything
+          professionally and efficiently, eliminating the hassle of
+          back-and-forth emails so you can get back to work.
         </p>
         <form
           action="/app/signup"
@@ -33,16 +32,12 @@ function Home() {
               value=""
               placeholder="Enter your email"
             />
+            <div height="auto" width="auto">
+            <button class="button-1">Sign Up</button>
+          </div>
           </div>
           <input type="hidden" name="lang" value="en" />
-          <div height="auto" width="auto">
-            <button class="button-1" >
-              Button 1
-            </button>
-          </div>
-          <span class="small-words">
-            Create your free account.No credit card required.
-          </span>
+          
         </form>
         <div class="sc-1ypbwf-0 fQkXFb"></div>
       </div>

@@ -70,10 +70,10 @@
   }
   .topnav img {
     text-align: right;
-    width: 14%;
+    width: 11%;
     height: auto;
     display: block;
     float: right;
-    transform: translateY(3px);
+    /* transform: translateY(3px); */
   }
 }

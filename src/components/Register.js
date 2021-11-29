@@ -107,7 +107,7 @@ export default function Register() {
     }
 
     console.log(fieldValues);
-    const response = axios.post("http://localhost:9091/api/user", fieldValues);
+    const response = axios.post("http://localhost:9091/api/register", fieldValues);
     console.log(response);
   };
 

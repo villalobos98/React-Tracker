@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Register from "./components/Register";
 import Home from "./components/Home";
+import Profile from "./components/Profile";
 
 function App() {
   const [date] = useState(new Date());
@@ -66,7 +67,11 @@ function App() {
           <Register />
           <Footer />
         </Route>
-        <Route exact path="/signout"></Route>
+        <Route exact path="/signout">
+        </Route>
+        <Route exact path="/profile">
+          <Profile/>
+        </Route>
       </Switch>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/Home.css";
-function Home() {
+
+const Home = () => {
   return (
     <div className="background">
       <div direction="column" width="auto" class="sc-pt0hl1-0 jtNkUh">
@@ -18,31 +19,11 @@ function Home() {
           professionally and efficiently, eliminating the hassle of
           back-and-forth emails so you can get back to work.
         </p>
-        <form
-          action="/app/signup"
-          method="get"
-          novalidate=""
-          data-testid="email-form"
-          class="sc-dgz7km-0 eyWSpD"
-        >
-          <div data-testid="email-input" class="sc-1ypbwf-0 hEBDxg">
-            <input
-              type="email"
-              name="email"
-              value=""
-              placeholder="Enter your email"
-            />
-            <div height="auto" width="auto">
-            <button class="button-1">Sign Up</button>
-          </div>
-          </div>
-          <input type="hidden" name="lang" value="en" />
-          
-        </form>
-        <div class="sc-1ypbwf-0 fQkXFb"></div>
+        <button class="button-1">Sign Up</button>
+        <input type="hidden" name="lang" value="en" />
       </div>
     </div>
   );
-}
+};
 
 export default Home;

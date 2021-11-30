@@ -15,6 +15,8 @@ const ExpenseForm = (props) => {
       date: new Date(date),
     };
     props.onSaveExpenseData(expenseData);
+    
+    // Clear out form fields when the data has been submitted
     setTitle("");
     setAmount("");
     setDate("");

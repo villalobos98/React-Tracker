@@ -9,24 +9,31 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
-    width: 100%;
+  .login-user, .login-psw{
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+
+  label > b {
+    color: white;
+    float: center;
+    margin-left: 45%;
+  }
   
   /* Set a style for all buttons */
-  button {
-    background-color: #04AA6D;
+  .loginbtn {
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 30%;
   }
   
   /* Add a hover effect for buttons */
@@ -34,16 +41,16 @@ form {
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
-    width: auto;
-    background-color: #f44336;
-  }
-  
-  .forgotPsw{
+  /* Extra style for the forgot password button (red) */
+  .forgotPsw {
     width: auto;
     float: right;
-    background-color: #ccc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
   }
 
 
@@ -51,7 +58,7 @@ form {
   .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
-    transform: scale(0.5);
+    transform: scale(1);
     padding: 0;
     margin: 0;
   }
